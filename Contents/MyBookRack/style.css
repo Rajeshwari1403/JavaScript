@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar{
+  background-color: rgb(126, 187, 136);
+  padding: 10px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.book-class {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  width: 25%;
+  border-radius: 15px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.book-class h1{
+  margin-bottom: 10px;
+}
+
+.book-class h5{
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.book-class p {
+  margin-bottom: 15px;
+}
+
+.book-class button{
+  background-color: rgb(126, 187, 136);
+  color: white;
+  padding: 10px;
+  border: 1px solid rgb(126, 187, 136);
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}
+
+.book-class button:hover{
+  background-color: white;
+  color: rgb(126, 187, 136);
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+}
+
+.add-book{
+  background-color: rgb(126, 187, 136);
+  border-radius: 100%;
+  border: 2px solid rgb(126, 187, 136);
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.popup-overlay{
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.popup-box{
+  background-color: rgb(126, 187, 136);
+  width: 40%;
+  padding: 40px;
+  border-radius: 15px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  z-index: 2;
+  display: none;
+}
+
+.popup-box input, textarea{
+  border: 2px solid white;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.popup-box button{
+  background-color: rgb(126, 187, 136);
+  color: white;
+  padding: 10px;
+  border: 1px solid rgb(126, 187, 136);
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}
+
+.popup-box button:hover{
+  background-color: white;
+  color: rgb(126, 187, 136);
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+}
