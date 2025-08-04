@@ -35,7 +35,6 @@ addbook.addEventListener("click", function(event){
   popupoverlay.style.display = "none"
   popupbox.style.display = "none"
 })
-
 function deletebook(event){
   event.target.parentElement.remove()
 }
