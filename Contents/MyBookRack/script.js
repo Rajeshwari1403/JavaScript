@@ -2,7 +2,6 @@
 var popupoverlay = document.querySelector('.popup-overlay');
 var popupbox = document.querySelector('.popup-box')
 var addpopupbtn = document.getElementById('add-btn')
-
 addpopupbtn.addEventListener("click", function(){
   popupoverlay.style.display = "block"
   popupbox.style.display = "block"
