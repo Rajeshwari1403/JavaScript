@@ -92,3 +92,17 @@ section.dark .time .time-colon .time-text{
   justify-content: center;
   color: black;
 }
+.time .time-colon .time-text,
+.time .time-colon .colon{
+  font-size: 18px;
+}
+section.dark .time .time-colon .time-text{
+  color: white;
+}
+.time .time-colon .colon{
+ font-size: 25px;
+}
+.time .time-colon .time-text .text{
+  font-size: 10px;
+  letter-spacing: 5px;
+}
